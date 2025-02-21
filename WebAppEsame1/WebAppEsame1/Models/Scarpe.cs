@@ -40,7 +40,7 @@
                 Nome = "Lumberjack Boots",
                 Prezzo = 54.99m,
                 Descrizione = "Lumberjack River Boot Fur Lining Giallo Marrone",
-                Immagine_Copertina = "/Images/lumberjack.jpeg",
+                Immagine_Copertina = "/Images/lumberjack.jpg",
                 Img_1 = "/Images/img7.jpeg",
                 Img_2 = "/Images/img8.jpg"
             }

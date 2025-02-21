@@ -15,7 +15,8 @@ namespace WebAppEsame1.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var prodotti = Scarpe.ScarpeList;
+            return View(prodotti);
         }
 
         public IActionResult Privacy()

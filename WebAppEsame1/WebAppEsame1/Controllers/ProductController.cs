@@ -7,8 +7,7 @@ namespace WebAppEsame1.Controllers
     {
         public IActionResult Index()
         {
-            var prodotti = Scarpe.ScarpeList;
-            return View(prodotti);
+            return View();
         }
     }
 }
