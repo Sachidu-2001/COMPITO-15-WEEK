@@ -1,10 +1,14 @@
-﻿namespace WebAppEsame1.Controllers
+﻿using WebAppEsame1.Models;
+using Microsoft.AspNetCore.Mvc;
+
+namespace WebAppEsame1.Controllers
 {
     public class ProductController : Controller
     {
         public IActionResult Index()
         {
-            var prodotti = 
+            var prodotti = Scarpe.ScarpeList;
+            return View(prodotti);
         }
     }
 }
