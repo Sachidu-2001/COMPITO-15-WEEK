@@ -1,6 +1,10 @@
 ﻿namespace WebAppEsame1.Controllers
 {
-    public class ProductController
+    public class ProductController : Controller
     {
+        public IActionResult Index()
+        {
+            var prodotti = 
+        }
     }
 }
