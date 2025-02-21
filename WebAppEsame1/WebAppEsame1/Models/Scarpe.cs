@@ -7,7 +7,7 @@
             new Product()
             {
                 Id = 1,
-                Nome = "NikeAirForceBlack",
+                Nome = "Nike Air Force Black",
                 Prezzo = 120.99m,
                 Descrizione = "Nike Snweakers Air Force da Uomo",
                 Immagine_Copertina = "/Images/nikeairfoceblack.webp",
@@ -16,7 +16,7 @@
             },
             new Product() {
                 Id = 2,
-                Nome = "AdidasRed",
+                Nome = "Adidas SuperStar Red",
                 Prezzo = 79.99m,
                 Descrizione = "Adidas Sneakers Rosse da Uomo",
                 Immagine_Copertina = "/Images/adidasred.webp",
